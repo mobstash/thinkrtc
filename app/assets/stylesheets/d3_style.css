@@ -123,8 +123,8 @@ div.half_img_box {padding: 0px;}
 div.half_img_box img {max-width: 100%;}
 div.half_txt_box, div.half_txt_box1 {display: inline-block; padding: 200px 160px 0px; background: #fff; min-height: 600px;}
 div.half_txt_box1 {min-height: 600px;}
-div.half_txt_box h3, div.half_txt_box1 h3 {font-size: 35px; color: #888; margin: 0px 0px 40px;}
-div.half_txt_box p, div.half_txt_box1 p {font-size: 17px; color: #888; line-height: 25px; margin: 0px 0px 30px;}
+div.half_txt_box h3, div.half_txt_box1 h3 {font-size: 35px; color: #333c4e; margin: 0px 0px 40px;}
+div.half_txt_box p, div.half_txt_box1 p {font-size: 17px; color: #7e8890; line-height: 25px; margin: 0px 0px 30px;}
 #intelligent .mob_view {display: none;}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {

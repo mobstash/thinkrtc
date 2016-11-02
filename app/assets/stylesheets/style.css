@@ -92,7 +92,7 @@ div.even_div {background: #fff;}
 /*-------------------------------------------------------------------------*/
 /*	3.	Header Style
 /*-------------------------------------------------------------------------*/
-#header {display: block; min-height: 965px; margin:0px; padding: 40px 0px; position: relative; background: url(https://www.invisionapp.com/assets/img/home/hero-super-fallback.jpg) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+#header {display: block; min-height: 965px; margin:0px; padding: 40px 0px; position: relative; background: url(http://image.prntscr.com/image/2843cb678e3f4a8296c6a457315eb2be.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
 #header .logo .text_logo {font-size: 30px; color: #fff; font-weight: 800;}
 #header .main_navigation {float: right; display: inline-block; line-height: 20px;}
 #header .main_navigation li {width: auto; float: left;}
@@ -104,8 +104,8 @@ div.even_div {background: #fff;}
 #header .main_navigation li a:hover:before, #header .main_navigation li a:hover:after, #header .main_navigation li a:focus:before,
 #header .main_navigation li a:focus:after {opacity: 1; -webkit-transform: translateX(0px); -moz-transform: translateX(0px); transform: translateX(0px);}
 #header .main_navigation li a:hover {color: #e7e7e7;}
-#header .header_content {display: block; padding: 170px 0px 0px 0px; width: 48%; margin: 0 auto; float: none; text-align: center;}
-#header .header_content h1 {display: inline-block; font-size: 50px; color: #e6e6e6; font-weight: 700; line-height: 75px; margin: 0px;}
+#header .header_content {display: block; padding: 170px 0px 0px 0px; margin: 0 auto; float: none; text-align: center;}
+#header .header_content h1 {display: inline-block; font-size: 50px; color: #FFF; font-weight: 700; line-height: 75px; margin: 0px;}
 #header .header_content h1 span {font-size: 65px; color: #fff;}
 #header .header_content h4 {font-size: 18px; color: #e6e6e6; line-height: 35px; margin: 50px 0px 0px 0px;}
 /*#header .get_started_btn {width: 320px; height: 50px; margin: 90px auto 0px; padding: 15px 0px; color: #fff; font-size: 21px; font-weight: 600; background-color: #6daf50; display: block; border-radius: 40px;}
@@ -223,7 +223,7 @@ div.even_div {background: #fff;}
 
 #main .workflow #flow-switcher>li:hover {-webkit-transform: scale(.95); transform: scale(.95);}
 #main .workflow #flow-switcher>li:active {-webkit-transform: scale(.92); transform: scale(.92);}
-#main .workflow #flow-switcher>li.active {-webkit-transform: scale(1); transform: scale(1); background-color: #9A9A9A;}
+#main .workflow #flow-switcher>li.active {-webkit-transform: scale(1); transform: scale(1); background-color: #00a8e4;}
 
 @media screen and (max-width:640px) {
 	#main .workflow #flow-switcher>li.active:after {content: ""; position: absolute; height: 0; width: 0; left: 50%; margin-left: -12px; bottom: -24px; border: 12px solid transparent; border-top-color: #9A9A9A;}
