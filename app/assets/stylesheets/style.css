@@ -29,7 +29,7 @@
 /*	1.	Browser Reset + Font Face
 /*-------------------------------------------------------------------------*/
 :focus {outline: 0;}
-html, body {overflow-x: hidden !important; text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;}
+html, body {/*overflow-x: hidden !important;*/ text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;}
 input[type=submit] {-webkit-appearance: none;}
 body ul {padding: 0px; margin: 0px;}
 body ul li {margin: 0px; padding: 0px; list-style: none; float: none;}
@@ -285,7 +285,7 @@ div.even_div {background: #fff;}
 
 #main .workflow #flow-boxes .codebox-container:before {content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 47px; background: #ebeff3; border-right: 1px solid #e3e7ea; border-radius: 5px 0 0 5px;}
 #main .workflow #flow-boxes .codebox-container:after {content: ""; position: absolute; left: 400px; top: 0; bottom: 0; width: 40px; border-radius: 0 6px 6px 0; pointer-events: none; z-index: 11;}
-#main .workflow #flow-boxes .codebox-container pre {white-space: pre; font: 12px/19px Menlo, Monaco, Consolas, Andale Mono, monospace; margin: 0 0 0 48px; padding: 0 20px; display: inline-block; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%);}
+#main .workflow #flow-boxes .codebox-container pre {white-space: pre; font: 12px/19px Menlo, Monaco, Consolas, Andale Mono, monospace; margin: 0 0 0 48px; padding: 0 50px; display: inline-block; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%);}
 #main .workflow #flow-boxes .codebox-container pre span {position: relative; left: -332px;}
 
 @media screen and (max-width:640px) {
@@ -378,7 +378,7 @@ div.even_div {background: #fff;}
 /*	8.	Pricing Style
 /*-------------------------------------------------------------------------*/
 #pricing .package_wrapp {margin: 75px auto 0 auto; float: none;}
-#pricing .single_package {background: #dae3f0; float: left; border: 0px solid #bababa; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
+#pricing .single_package {background: #dae3f0; float: left; border: 0px solid #bababa; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s; width: 347px;}
 #pricing .single_package.active {background: #dae3f0; border: 0px solid #e5e5e5; -webkit-transition: all ease-in 0.25s; transition: all ease-in 0.25s;}
 #pricing .package_headwrap {height: 55px; background-color: #3c4a62;}
 #pricing .package_headwrap h3 {font-size: 20px; line-height: 55px; color: #fff; text-align: center; text-transform: uppercase;}

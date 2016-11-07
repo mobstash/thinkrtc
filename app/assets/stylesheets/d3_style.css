@@ -70,7 +70,7 @@ div.even_div {background: #ececec;}
 
 #header form {display: inline-block; width: 85%; margin: 88px auto 0px;}
 #header input {background: #fff; border-radius: 5px; padding: 13px 15px; border: 1px solid #e8b71a; font-size: 17px; text-transform: capitalize; color: #606060; width: 68%; margin-right: 15px; float: left;}
-#header .get_started_btn {width: 215px; height: 45px; margin: 0px; padding: 11px 0px; color: #fff; font-size: 17px; border: 0; font-weight: 400; background-color: #f75a57; display: block; border-radius: 5px; float: left;}
+#header .get_started_btn {width: 215px; height: 45px; margin: 0px; color: #fff; font-size: 17px; border: 0; font-weight: 400; background-color: #f75a57; display: block; border-radius: 5px; float: left;}
 #header .get_started_btn:hover {background-color: #f7100c; color: #fff;}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
