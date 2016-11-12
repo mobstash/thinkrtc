@@ -69,7 +69,7 @@ div.even_div {background: #ececec;}
 #header .header_content h1 span {font-size: 64px; color: #fff;}
 
 #header form {width: 85%; margin: 20px auto 0px;}
-#header input {height: 50px; margin-bottom: 5px; background: #fff; border-radius: 5px; padding: 3px 15px; border: 1px solid #e8b71a; font-size: 17px; text-transform: capitalize; color: #606060; width: 68%; margin-right: 15px; float: left;}
+#header input {height: 50px; margin-bottom: 5px; background: #fff; border-radius: 5px; padding: 3px 15px; border: 1px solid #e8b71a; font-size: 17px; color: #606060; width: 68%; margin-right: 15px; float: left;}
 #header .get_started_btn {width: 215px; height: 105px; margin: 0px; color: #fff; font-size: 17px; border: 0; font-weight: 400; background-color: #f75a57; display: block; border-radius: 5px; float: right;}
 #header .get_started_btn:hover {background-color: #f7100c; color: #fff;}
 

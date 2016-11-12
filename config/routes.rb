@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/adminpanel', as: 'rails_admin'
   resources :signups
   resources :homes
   # The priority is based upon order of creation: first created -> highest priority.
