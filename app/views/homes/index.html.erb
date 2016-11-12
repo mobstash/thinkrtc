@@ -9,14 +9,35 @@
             <div class="header_content">
             	<h1> Rethink Customer Support. ThinkRTC.</h1>
             	<h3><font color="#fff">Integrating <b>Real Time Communication</b> In Under 15 seconds</font></h3>
-                <form action="#">
-                    <input type="text" name="Email" id="d3_email" placeholder="Your Site URL" onfocus="if(this.value=='E-mail Address') this.value='';" />
-                    <button type="submit" class="btn get_started_btn">Get Started</button></button>
-                </form>
+                <%= form_for(@signup) do |f| %>
+                    <% if @signup.errors.any? %>
+                        <div id="error_explanation">
+                            <h2><%= pluralize(@signup.errors.count, "error") %> prohibited this signup from being saved:</h2>
+                            <ul>
+                                <% @signup.errors.full_messages.each do |message| %>
+                                <li><%= message %></li>
+                                <% end %>
+                            </ul>
+                        </div>
+                        <% end %>
+                        
+                <div class="field" style="margin-top:10px">
+                    <%= f.text_field :email, placeholder: "Email" %>
+                </div>
+                <div class="actions">
+                    <%= f.submit "Submit", class:"btn get_started_btn"%>
+                </div>
+                <div class="field">
+                    <%= f.text_field :website, placeholder: "Website" %>
+                </div>
+                <% end %>
             </div>
             <!-- Header Content End -->
         </div>
-        
+        <!--<form action="#">-->
+        <!--            <input type="text" name="Email" id="d3_email" placeholder="Your Site URL" onfocus="if(this.value=='E-mail Address') this.value='';" />-->
+        <!--            <button type="submit" class="btn get_started_btn">Get Started</button></button>-->
+        <!--        </form>-->
         <script src="//load.sumome.com/" data-sumo-site-id="c708c6056db53ff3f7cb7645b95f3660de2bebfd8efcf9711cff9c43d1d13016" async="async"></script>
     </div>
     <!-- Header End -->
@@ -154,7 +175,7 @@
             <!-- Article3 Start -->
             <div id="engage">
                 <div class="col-md-6 col-sm-12 col-xs-12 half_img_box">
-                    <img class="img-responsive" alt="Engage &amp; re-engage" src="https://s17.postimg.org/483tw3an3/e7419be8_bf3b_4c06_9e5c_5bcdff2ecfb8.jpg" style="box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 16px 0px, rgba(0, 0, 0, 0.56) 0px 6px 20px 0px; width: 50%; height: 50%; margin-left: 20%"/>
+                    <img class="img-responsive" alt="Engage &amp; re-engage" src="https://s16.postimg.org/awon2qawl/e7419be8_bf3b_4c06_9e5c_5bcdff2ecfb8.jpg" style="box-shadow: rgba(0, 0, 0, 0.9) 0px 8px 16px 0px, rgba(0, 0, 0, 0.56) 0px 6px 20px 0px; width: 50%; height: 50%; margin-left: 20%"/>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 half_txt_box1">
                     <h3>Assign & Respond Anywhere</h3>
