@@ -6,7 +6,10 @@ class HomesController < ApplicationController
   def index
     @homes = Home.all
     @home = Home.new
+   
     @signup = Signup.new
+    
+    
   end
 
   # GET /homes/1
